@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Satisfação</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="assets/img/header.jpg" alt="desenho de pessoas em um bar">
+        </figure>
+        <div class="lineBreak"></div>
+        <h1>BISTRÔ MONTILLA</h1>
+        <div class="lineBreak"></div>
+        <h2>Pesquisa de Satisfação do Cliente</h2>
+    </header>
+    <main>
+        <form id="form-user" action="#" method="get">
+            <div class="inputBoxes">
+                <label for="user-name">Escreva seu nome:</label>
+                <input type="text" name="user-name" id="user-name" placeholder="Nome completo" required tabindex="1">
+            </div>
+            <div class="inputBoxes">
+                <label for="user-email">Escreva seu email:</label>
+                <input type="email" name="user-email" id="user-email" placeholder="E-mail" required tabindex="2">
+            </div>
+            <div id="opinionBox" class="inputBoxes">
+                <label  for="userComment">Escreva como foi sua experiência</label>
+                <input type="text" name="userComment" id="comment" placeholder="Opinião">
+            </div>
+            
+            <div id="buttons" class="inputBoxes">
+                <button id="cancelButton">Cancelar</button>
+                <button id="sendButton" onclick="getValues()">Enviar</button>
+            </div>
+        </form>
+        <p>Muito obrigado pela sua opinião, ela nos ajuda a melhor atendê-lo</p>
+        <figure id="bottomFigure">
+            <img src="assets/img/bottom.jpg" alt="">
+        </figure>
+        <p id="respostas"></p>
+    </main>
+    <script src="form.js"></script>
+</body>
+</html>

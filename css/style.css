@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 235, 148);
+}
+
+header {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+figure {
+    width: 100%;  
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 250%;
+    word-spacing: 1.17rem;
+    font-weight: 900;  
+    color: rgba(165, 42, 42, 0.849);  
+}
+
+.lineBreak {
+    border-top: 2px solid rgb(197, 69, 69);
+    height: 4px;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.inputBoxes, #opinionBox {
+    margin: 4% 0;
+}
+
+.inputBoxes{
+    display: flex;
+    justify-content: center;
+}
+#bottomFigure {
+    width: 100%;
+    margin: 5% 0;
+}
+
+#user-name, #user-email {
+    width: 60%;
+    padding: 1% 1%;
+    margin-left: 1%;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+}
+
+::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+}
+
+#opinionBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#comment {
+    width: 80%;
+    height: 25vh;
+    margin-top: 2%;
+}
+
+#comment::placeholder{
+    text-align: left;
+
+}
+#buttons {
+    gap: 4%;
+}
+#cancelButton {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    color: white;
+    background-color: rgb(243, 100, 75);
+    cursor: pointer;
+    width: 25%;
+}
+
+#cancelButton:hover{
+    background-color: rgb(236, 51, 18);
+
+}
+
+#sendButton {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    color: white;
+    background-color: rgb(70, 151, 204);
+    cursor: pointer;
+    width: 25%;
+}
+
+#sendButton:hover {
+    background-color: rgb(8, 86, 138);
+}
+
+p {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 150%;
+    color: rgba(165, 42, 42, 0.849);
+}
+
+#respostas {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    color: red;
+}
+#bottomFigure>img {
+    width: 100%;
+}
+
